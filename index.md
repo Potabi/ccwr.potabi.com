@@ -3,4 +3,6 @@ Welcome to the Competition and Cooperation Web Ring (CCWR). The CCWR is a projec
 ## MEMBERS
 These member projects believe that cooperating with the competition to their projects will often lead to better innovations, stronger software, and better communities. These member projects also understand that not every project will be cooperative or kind, and that there are limitations to cooperation. These member projects believe in fair sportsmanship, transperency, honesty, and community.
 
-- [Potabi](https://potabi.com)
+| MEMBER | URL | CCWR CONTACT |
+| ------ | --- | ------------ |
+| Potabi | [potabi.com](https://potabi.com) | [ccwr@potabi.com](mailto:ccwr@potabi.com) |

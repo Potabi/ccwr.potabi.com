@@ -20,4 +20,47 @@ Being a CCWR member, we request (optional):
 - To be open source (we accept proprietary software projects to the CCWR)
 
 ## JOINING
-To become a CCWR member is simple.
+To become a CCWR member is simple. You need to add the CCWR logo to your website, and have it linked back to the CCWR website.
+
+![CCWR Logo Alt](https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png)
+
+Once you have done that, email [ccwr@potabi.com](mailto:ccwr@potabi.com) with the subject "CCWR MEMBER" and in the body include the URL to your project, and member contact email.
+
+> We have provided some examples on how to add it to your website/project in multiple languages and frameworks!
+
+HTML:
+```html
+<a href="https://ccwr.potabi.com">
+    <img src="https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png" alt="CCWR Logo">
+</a>
+```
+
+Markdown:
+```md
+![CCWR Logo Alt](https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png)
+```
+
+MEML:
+```lisp
+(a href="https://ccwr.potabi.com"
+    (img src="https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png" alt="CCWR Logo"))
+```
+
+PugJS
+```js
+img(src="img(src='https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png')")
+```
+
+NextJS
+```jsx
+import ccwr from 'https://raw.githubusercontent.com/Potabi/ccwr.potabi.com/gh-pages/image/logo.png';
+
+export default function home {
+    return (
+        <>
+            <!-- Rest of Website -->
+            <Image src={ccwr} alt="CCWR logo" />
+        </>
+    )
+}
+```
